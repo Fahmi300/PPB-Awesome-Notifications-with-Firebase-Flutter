@@ -47,7 +47,7 @@ class _LoginScreenState extends State<LoginScreen> {
         notificationLayout: NotificationLayout.ProgressBar,
       );
       await Future.delayed(const Duration(seconds: 1));
-      NotificationService.dismiss(2);
+      NotificationService.dismiss(1);
       await NotificationService.createNotification(
         id: 3,
         title: 'Login Account',
