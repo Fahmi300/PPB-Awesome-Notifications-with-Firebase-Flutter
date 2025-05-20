@@ -1,16 +1,35 @@
 # flutter_project_firebase_auth
 
-A new Flutter project.
+A Simple Login Flutter App
 
-## Getting Started
+Login flutter dengan authentikasi firebase serta tambahan notifikasi jika berhasil login, register atau logout
 
-This project is a starting point for a Flutter application.
+### Jika Email atau Password Salah
 
-A few resources to get you started if this is your first Flutter project:
+![image](https://github.com/user-attachments/assets/1e54aa27-f15b-466d-8628-0ce142928cc4)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Menampilkan action notification mengarahkan ke register
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Jika Register Berhasil 
+
+![image](https://github.com/user-attachments/assets/4c4defc3-135a-43ca-8889-a2006c881920)
+
+Menampilkan notifikasi biasa register berhasil
+
+### Jika Login Berhasil
+
+![image](https://github.com/user-attachments/assets/1f0e3b54-a366-43f9-826e-700d9a990709)
+
+Menampilkan progress notification
+
+![image](https://github.com/user-attachments/assets/d29c6a00-2d48-4e01-b69c-c7eb55acb656)
+
+Menampilkan notifikasi biasa login berhasil
+
+### Jika Logout
+
+![image](https://github.com/user-attachments/assets/c0caef19-7dcb-41f5-b2c1-fd16cfb3599d)
+
+Menampilkan big picture notification dengan gambar goodbye dan pesan logout berhasil
+
